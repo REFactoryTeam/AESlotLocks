@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ref.aeslotlocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "aeslotlocks.refmap.json",
+  "mixins": [
+    "AEBaseMenuMixin"
+  ],
+  "client": [
+    "AEBaseScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
